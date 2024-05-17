@@ -90,6 +90,7 @@ export const cartReducer = (
                     quantity: item.quantity - 1,
                 }
             }
+            return item
         })
         return {
             ...state,
